@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 .slider-top01 {
-  background: url("../images/photo/一の坂川エリア/トップイメージ/桜と一の坂川02.jpeg");
+  background: url("桜と一の坂川02.jpeg");
 }
 .slider-top02 {
-  background: url("../images/photo/トップページ/トップイメージ/110029.jpg");
+  background: url("110029.jpg");
 }
 .slider-top03 {
-  background: url("../images/photo/トップページ/トップイメージ//yamaguchixaviel.jpeg");
+  background: url("yamaguchixaviel.jpeg");
 }
 #top-slider {
   position: relative;
