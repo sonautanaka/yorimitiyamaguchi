@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 .slider-top01 {
-  background: url("../images/photo/トップページ/トップイメージ/110025.jpg");
+  background: url("110025.jpg");
 }
 .slider-top02 {
-  background: url("../images/photo/トップページ/トップイメージ/110029.jpg");
+  background: url("110029.jpg");
 }
 .slider-top03 {
-  background: url("../images/photo/トップページ/トップイメージ//yamaguchixaviel.jpeg");
+  background: url("yamaguchixaviel.jpeg");
 }
 #top-slider {
   position: relative;
