@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+.slider-top01 {
+  background: url("../images/photo/トップページ/トップイメージ/110025.jpg");
+}
+.slider-top02 {
+  background: url("../images/photo/トップページ/トップイメージ/110029.jpg");
+}
+.slider-top03 {
+  background: url("../images/photo/トップページ/トップイメージ//yamaguchixaviel.jpeg");
+}
+#top-slider {
+  position: relative;
+  z-index: 1;
+  /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+  height: 100vh; /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+}
+.top-slider-item {
+  height: 100vh;
+}
+#area-slider {
+  position: relative;
+  z-index: 1;
+}
+#gallery-slider {
+  position: relative;
+  z-index: 1;
+  /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+}
+.gallery-slider-item {
+  width:94%;
+    margin:0 auto;
+  height: 60vw;
+  max-height: 350px;
+}
+.slider-item {
+  width: 100%;
+  background-repeat: no-repeat; /*背景画像をリピートしない*/
+  background-position: center; /*背景画像の位置を中央に*/
+  background-size: cover; /*背景画像が.slider-item全体を覆い表示*/
+}
+.section-top__logo {
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  max-height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.section-area {
+  margin: 80px 0;
+}
+.section-area h2 {
+  margin-bottom: 52px;
+}
+.section-area__content {
+  display: block;
+  color: #ffffff;
+  padding: 40px 8vw;
+  width: fit-content;
+  margin: 0 auto;
+}
+.section-area__content h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.section-area__content img {
+  margin: 0 auto 32px;
+  max-width: 600px;
+}
+.section-area__content h4 {
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.section-area__content p {
+  color: #f1f1f1;
+  font-weight: 200;
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto 32px;
+}
+.section-area__btn a {
+  display: inline-block;
+  width: 60vw;
+  height: 40px;
+  max-width: 240px;
+  line-height: 13px;
+  border: 1px solid #FFDC91;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  z-index: 5;
+}
+.section-area__btn p {
+  position: relative;
+  text-align: center;
+  top: 8px;
+  color: #FFDC91;
+  font-weight: 300;
+}
+.section-gallery {
+  margin: 120px 0 100px 0;
+  padding: 0 8vw;
+}
+.section-gallery h2 {
+  margin-bottom: 60px;
+}
+.section-gallery img {
+  margin: 0 auto;
+}
+.section-sitemap h2 {
+  margin-bottom: 52px;
+}
+.section-sitemap__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  
+}
+.section-sitemap a {
+  display: inline-block;
+  width: 100%;
+  height: 52px;
+  max-width: 240px;
+  line-height: 13px;
+  border: 1px solid #E0E0E0;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.section-sitemap p {
+  color: #004BB1;
+  font-weight: 400;
+  top: 24%;
+  left: 12%;
+  position: relative;
+}
+.section-sitemap__nav a {
+  border-radius: 40px;
+}
+.section-sitemap__nav div {
+  position: absolute;
+  top: 24%;
+  left: 16%;
+}
+.section-sitemap__link div {
+  position: absolute;
+  top: 36%;
+  left: 16%;
+  zoom: 2;
+}
+
+@media(min-width:1024px){
+  .section-top__logo{
+    width: 320px;
+  }
+  .top-wrapper p{
+    font-size: 4.4rem;
+    top: 84vh;
+    letter-spacing: 8px;
+    font-weight: 300;
+  }
+  .section-area h2{
+    color: #333333;
+    margin-top: 300px;
+    margin-bottom: 160px;
+  }
+  .section-area__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    max-width: 1184px;
+}
+  
+  .content-ichi h3, .content-ichi h4{
+    color: #7D6C46;
+  }
+  .content-tyo h3,.content-tyo h4{
+    color: #CC543A;
+  }
+  .content-tokusa h3,.content-tokusa h4{
+    color: #2D6D4B;
+  }
+  
+  .content-ichi h3,.content-tyo h3,.content-tokusa h3 {
+    font-size: 4.0rem;
+    padding-bottom: 20px;
+  }
+  .font-20{
+    font-size: 3.0rem
+  }
+  .content-ichi h4,.content-tyo h4,.content-tokusa h4{
+    font-size: 2.5rem;
+  }
+  .section-area__description{
+    background-color: #ffffff;
+    text-align: left;
+    min-width: 400px;
+    padding-right: 40px;
+  }
+  .section-area__description p{
+    color: #707070;
+    margin: 0;
+    padding-bottom: 12px;
+    line-height: 30px;
+  }
+  .section-view a{
+    display: flex;
+    flex-direction: row-reverse;
+    left: 0px;
+    justify-content: flex-end;
+  }
+  .section-view P{
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
+  #view-ichi{
+    color: #7D6C46;
+  }
+  #view-tyo{
+    color: #CC543A;
+  }
+  #view-tokusa{
+    color: #2D6D4B;
+  }
+  .section-view img{
+    width: 30px;
+    margin: 0px;
+  }
+  .section-area__content img{
+    margin: 0px;
+  }
+  #section-area__content-rv{
+    flex-direction: row-reverse;
+  }
+  #section-area__description-rv{
+    right: 0px;
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+  #section-view-rv{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #section-view-rv p{
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .section-gallery{
+    max-width: 1184px;
+    margin: 120px auto 100px;
+  }
+  .section-gallery h2{
+    margin-top: 300px;
+    margin-bottom: 160px;
+  }
+  .section-gallery img{
+    width: 96%;
+  }
+  .section-sitemap__wrapper{
+    flex-direction:row;
+    padding: 0 8vw;
+      }
+  .section-sitemap{
+    margin-bottom: 100px;
+  }
+  .section-sitemap h2{
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+  .section-sitemap p{
+    font-size: 2.0rem;
+    font-weight: 600;
+  }
+ .section-sitemap a{
+    width: 280px;
+    max-width: 280px;
+  }
+}
