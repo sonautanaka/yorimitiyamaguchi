@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+.section-h-nav a{
+  font-size: 3.2rem;
+  color: #333333;
+}
+.section-schedule {
+  position: fixed;
+  top: 64px;
+  right: 0px;
+  color: #004BB1;
+}
+.section-schedule__bus, .section-schedule__train {
+  border: 2px solid #004BB1;
+  border-radius: 50%;
+  width: 12vw;
+  height: 11vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vw;
+}
+.section-schedule__train {
+  margin-bottom: 12px;
+}
+.section-schedule__train p, .section-schedule__bus p {
+  font-size: 9px;
+  color: #004BB1;
+  line-height: 10px;
+  width: fit-content;
+  font-weight: 600;
+}
+.section-schedule__train img, .section-schedule__bus img {
+  width: 6vw;
+}
+.section-access{
+  max-width: 1184px;
+  margin: 0 auto;
+}
+.section-access h1 {
+  font-size: 34px;
+  margin-top: 120px;
+}
+.section-access__ichi {
+  color: #7D6C46;
+}
+.section-access__tyo {
+  color: #CC543A;
+}
+.section-access__tokusa {
+  color: #2D6D4B;
+}
+.section-access__pin {
+  width: 20px;
+}
+.section-access__content h2 {
+  font-weight: 600;
+  margin-top: 100px;
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+.section-access__spot {
+  width: fit-content;
+  margin: 0 auto 100px;
+}
+.section-access__spot p {
+  text-align: left;
+}
+.section-access__title {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-access__title p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.section-access__spot img {
+  max-width: 400px;
+}
+
+@media(min-width:1024px){
+  .section-schedule__train, .section-schedule__bus {
+    max-width: 123px;
+    max-height: 113px;
+  }
+ .section-schedule__train img, .section-schedule__bus img {
+     max-width: 60px;
+  }
+  .section-schedule__train p, .section-schedule__bus p{
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .section-access h1{
+    font-size: 8.0rem;
+    margin-top: 240px;
+    margin-bottom: 200px;
+  }
+  .font-20{
+    font-size: 4.0rem;
+  }
+  .section-access__content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-access__content{
+    padding: 0 124px;
+  }
+  .section-access__content h2 {
+    font-weight: 600;
+    margin-top: 100px;
+    font-size: 5.2rem;
+    margin-bottom: 100px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .section-access__image{
+    width: 32vw;
+    margin: 40px 0;
+  }
+  .section-access__pin{
+    width: 40px;
+    padding-right: 20px;
+  }
+  .section-access__title p{
+    font-size: 4.0rem;
+  }
+  .section-schedule__train{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .section-schedule__bus{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+  }
+}
